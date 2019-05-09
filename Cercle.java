@@ -17,7 +17,18 @@ public class Cercle {
         this.x = c.x;
         this.y = c.y;
     }
-	 
+	public float getX(){
+        return this.x;
+    }  
+    public float getY(){
+        return this.y;
+    }  
+    public void setX(float a){
+        this.x=a;
+    }        
+    public void setY(float b){
+        this.y=b;
+    } 
 	public String toString(){
         return ("X és " +this.x+ " i Y és "+ this.y);
     }
@@ -29,7 +40,7 @@ public class Cercle {
 	
 	    public static void main(String[] args) {
 
+
     }
 
 }
-
