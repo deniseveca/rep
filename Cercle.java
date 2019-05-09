@@ -43,6 +43,10 @@ public class Cercle {
       Cercle c2 = new Cercle(5.5,5.5);
       Cercle c3 = new Cercle(c2);
 
+
+<<<<<<< HEAD
+=======
     }
 
+>>>>>>> master
 }
